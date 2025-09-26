@@ -1,0 +1,1 @@
+/home/nerijus/.config/omarchy/current/theme/neovim.lua
