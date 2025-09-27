@@ -8,12 +8,12 @@ return {
 		local set = vim.keymap.set
 
 		-- Add or skip adding a new cursor by matching word/selection
-		set({ "n", "x" }, "<leader>n", function()
-			mc.matchAddCursor(1)
-		end, { desc = "Add cursor to next match" })
-		set({ "n", "x" }, "<leader>N", function()
-			mc.matchAddCursor(-1)
-		end, { desc = "Add cursor to previous match" })
+		-- set({ "n", "x" }, "<leader>n", function()
+		-- mc.matchAddCursor(1)
+		-- end, { desc = "Add cursor to next match" })
+		-- set({ "n", "x" }, "<leader>N", function()
+		-- mc.matchAddCursor(-1)
+		-- end, { desc = "Add cursor to previous match" })
 
 		-- Add and remove cursors with control + left click.
 		set("n", "<c-leftmouse>", mc.handleMouse)
