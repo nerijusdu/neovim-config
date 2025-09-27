@@ -3,5 +3,5 @@ return {
 	opts = {
 		build_dir = "build",
 	},
-	enabled = vim.env.PLUGIN_ESP32 ~= "true",
+	enabled = vim.env.PLUGIN_ESP32 == "true",
 }
