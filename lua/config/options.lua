@@ -5,3 +5,4 @@ vim.opt.relativenumber = false
 vim.o.tabstop = 2
 vim.o.expandtab = false
 vim.g.lazyvim_eslint_auto_format = true
+vim.g.ai_cmp = true
