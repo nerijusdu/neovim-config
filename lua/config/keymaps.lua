@@ -16,6 +16,12 @@ map("i", "<ScrollWheelRight>", "<Nop>")
 map("x", "<ScrollWheelRight>", "<Nop>")
 
 map("n", "<C-t>", function()
-	Util.terminal()
+	Snacks.terminal()
 end, { desc = "Terminal (root dir)" })
 map("t", "<C-t>", "<cmd>close<cr>", { desc = "Hide Terminal" })
+
+map("n", "<leader>fw", function()
+	Snacks.picker.grep()
+end, { desc = "Grep (root dir)" })
+
+map("n", "<leader>/", "<cmd>normal gcc<cr>", { desc = "Toggle comment" })

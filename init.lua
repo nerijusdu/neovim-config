@@ -6,5 +6,3 @@ require("config.lazy")
 -- Tab to select next suggestion in cmp
 -- eslint errors as warnings
 -- gF not working
--- toggle comments
--- dont open file tree on startup
