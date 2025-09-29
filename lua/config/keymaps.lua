@@ -3,9 +3,19 @@
 -- Add any additional keymaps here
 
 local map = LazyVim.safe_keymap_set
+local Util = require("lazyvim.util")
 
 map("n", "U", "<C-r>", { desc = "Redo" })
 map("x", "p", '"_dP', { desc = "Paste without yanking" })
 map("n", "<leader>x", function()
 	Snacks.bufdelete()
 end, { desc = "Close Buffer" })
+
+map("n", "<ScrollWheelRight>", "<Nop>")
+map("i", "<ScrollWheelRight>", "<Nop>")
+map("x", "<ScrollWheelRight>", "<Nop>")
+
+map("n", "<C-t>", function()
+	Util.terminal()
+end, { desc = "Terminal (root dir)" })
+map("t", "<C-t>", "<cmd>close<cr>", { desc = "Hide Terminal" })

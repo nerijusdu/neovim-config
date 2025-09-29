@@ -15,4 +15,4 @@ local function load_env(path)
 end
 
 -- load .env in your home or project directory
-load_env(vim.fn.getcwd() .. "/.env")
+load_env("~/.config/nvim/.env")
