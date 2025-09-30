@@ -24,4 +24,8 @@ map("n", "<leader>fw", function()
 	Snacks.picker.grep()
 end, { desc = "Grep (root dir)" })
 
+map("n", "<leader>fW", function()
+	Snacks.picker.resume()
+end, { desc = "Last Grep" })
+
 map("n", "<leader>/", "<cmd>normal gcc<cr>", { desc = "Toggle comment" })
