@@ -29,3 +29,5 @@ map("n", "<leader>fW", function()
 end, { desc = "Last Grep" })
 
 map("n", "<leader>/", "<cmd>normal gcc<cr>", { desc = "Toggle comment" })
+
+-- TODO: fold all except under current cursor
