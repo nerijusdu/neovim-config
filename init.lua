@@ -3,5 +3,6 @@ require("config.dotenv")
 require("config.lazy")
 
 -- TODO:
--- eslint errors as warnings
 -- gF not working
+-- suggest something without starting to type
+-- comment block not working with <leader>/
