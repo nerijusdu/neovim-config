@@ -4,5 +4,3 @@ require("config.lazy")
 
 -- TODO:
 -- gF not working
--- suggest something without starting to type
--- comment block not working with <leader>/
