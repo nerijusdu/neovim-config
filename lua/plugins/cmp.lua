@@ -2,8 +2,8 @@ return {
 	"saghen/blink.cmp",
 	opts = {
 		keymap = {
-			["<Tab>"] = { "select_next", "fallback" },
-			["<S-Tab>"] = { "select_prev", "fallback" },
+			["<S-Tab>"] = { "select_next", "fallback" },
+			-- ["<S-Tab>"] = { "select_prev", "fallback" },
 			["<C-Enter>"] = { "show" },
 		},
 	},
