@@ -31,4 +31,6 @@ end, { desc = "Last Grep" })
 map("n", "<leader>/", "<cmd>normal gcc<cr>", { desc = "Toggle comment" })
 map("v", "<leader>/", "<cmd>normal gc<cr>", { desc = "Toggle comment" })
 
+map("n", "gb", "<C-o>", { desc = "Go to last edit position" })
+
 -- TODO: fold all except under current cursor
